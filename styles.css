@@ -1,0 +1,142 @@
+body {
+	display: inline-flex;
+	margin: 0px;
+}
+
+.block-one-photos:hover {
+	filter: alpha(opacity=100);
+    opacity: 0.2;
+}
+
+.block-one-photos {
+	border: 2px solid black;
+	filter: alpha(opacity=40);
+	height: 100%;
+	opacity: 1.0;
+	width: 100%;
+    z-index: 1;
+}
+
+.block-one-rectangle {
+	background-color: #8A795D;
+	color: white;
+	display: inline-flex;
+	height: 320px;
+	width: 67%;
+	display: inline-block;
+	opacity: 1.0;
+}
+.block-one-rectangle:hover {
+	filter: alpha(opacity=100);
+    opacity: 0.2;
+}
+.block-one-retangle.hover {
+	filter: alpha(opacity=100);
+    opacity: 0.2;
+}
+
+.block-one {
+	display: inline-block;
+	height: auto;
+	width: 60%;
+}
+
+.block-two {
+	float:right;
+	height: 960px;
+	position: relative;
+	width: 40%;
+}
+
+.block-two-rectangle {
+	border: 2px solid black;
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+.header-text {
+	font: trajan;
+	font-size: 25px;
+	line-height: 50px;
+	margin: 0px;
+	padding: 35px;
+	text-align: center;
+}
+
+.small-squares {
+	align-content: space-between;
+	flex-wrap: wrap;
+	float: right;
+	height: 320px;
+	width: 33.33%;
+}
+
+.text {
+	width: 95%;
+}
+
+.text_overlays {
+	font-size: 2.5em;
+	margin-top: 38%;
+	opacity: 40;
+	text-align: center;
+}
+
+.width{
+	width: 33%;
+}
+@media(max-width: 1200px) {
+.header {
+	font-size: 40px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	text-align: center;
+}
+.header-text {
+	font: trajan;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0px;
+	padding: 35px;
+	text-align: center;
+}
+.block-one {
+	display: block;
+	height: auto;
+	width: 100%;
+	position: absolute;
+}
+.block-two {
+	display: block;
+	height: auto;
+	width: 100%;
+	position: relative;
+	margin-top: 960px;
+}
+.block-two-rectangle {
+	border: 2px solid black;
+	height:	100%;
+	width: 100%;
+
+
+};
+@media(max-width: 1200px) {
+.small-squares {
+	align-content: space-between;
+	flex-wrap: wrap;
+	float: right;
+	height: 310px;
+	width: 33.33%;
+}
+
+
+
+
+
